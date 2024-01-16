@@ -6,8 +6,8 @@ import com.intellij.openapi.wm.ToolWindow
 import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.content.ContentFactory
 
-import com.github.nergan123.iderpg.rpgWindowContent.CharacterInfo
-import com.github.nergan123.iderpg.rpgWindowContent.SettingsTab
+import com.github.nergan123.iderpg.ui.rpgWindowContent.CharacterInfo
+import com.github.nergan123.iderpg.ui.rpgWindowContent.SettingsTab
 
 
 internal class IdeRpg : ToolWindowFactory, DumbAware {

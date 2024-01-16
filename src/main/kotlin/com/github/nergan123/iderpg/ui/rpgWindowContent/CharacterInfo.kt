@@ -1,5 +1,6 @@
-package com.github.nergan123.iderpg.rpgWindowContent
+package com.github.nergan123.iderpg.ui.rpgWindowContent
 
+import com.github.nergan123.iderpg.state.SettingsTabState
 import java.awt.BorderLayout
 import javax.swing.BorderFactory
 import javax.swing.JLabel
@@ -18,7 +19,8 @@ class CharacterInfo {
     private fun createCharacterInfoPanel(): JPanel {
         val controlsPanel = JPanel()
 
-        val characterLabel = JLabel("My Character")
+        val characterLabel = JLabel()
+        characterLabel.text = SettingsTabState.instance.characterName
         controlsPanel.add(characterLabel, BorderLayout.CENTER)
 
         return controlsPanel

@@ -29,5 +29,6 @@
                 anchor="right"
                 factoryClass="com.github.nergan123.iderpg.IdeRpg"
         />
+        <applicationService serviceImplementation="com.github.nergan123.iderpg.state.SettingsTabState"/>
     </extensions>
 </idea-plugin>
