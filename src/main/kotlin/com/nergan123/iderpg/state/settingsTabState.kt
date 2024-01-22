@@ -1,4 +1,4 @@
-package com.github.nergan123.iderpg.state
+package com.nergan123.iderpg.state
 
 import com.intellij.openapi.application.ApplicationManager
 import com.intellij.openapi.components.PersistentStateComponent

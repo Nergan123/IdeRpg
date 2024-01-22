@@ -27,8 +27,8 @@
                 secondary="true"
                 icon="/IdeRpgIcons/mainIcon.png"
                 anchor="right"
-                factoryClass="com.github.nergan123.iderpg.IdeRpg"
+                factoryClass="com.nergan123.iderpg.IdeRpg"
         />
-        <applicationService serviceImplementation="com.github.nergan123.iderpg.state.SettingsTabState"/>
+        <applicationService serviceImplementation="com.nergan123.iderpg.state.SettingsTabState"/>
     </extensions>
 </idea-plugin>
